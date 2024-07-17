@@ -19,7 +19,7 @@ const experienceData = [
 
 function Experience() {
   return (
-    <div className="container mx-auto py-8">
+    <div className="container mx-auto p-8">
       <h1 className="text-3xl font-semibold text-center mb-8">Experience</h1>
       <div className='max-h-[91vh] overflow-y-auto'>
         {experienceData.map((experience, index) => (
