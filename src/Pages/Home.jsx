@@ -1,27 +1,7 @@
 import React from 'react';
-
-const icons = {
-  skills: (
-    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3"/>
-    </svg>
-  ),
-  projects: (
-    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 5v14m0 0l-3-3m3 3l3-3"/>
-    </svg>
-  ),
-  experience: (
-    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v16m8-8H4"/>
-    </svg>
-  ),
-  contact: (
-    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"/>
-    </svg>
-  ),
-};
+import Icon from '../FakeDB/icons/icon';
+import CV from '../Assets/CV/sde.pdf'
+const icons = Icon;
 
 function Home({ setOption }) {
   const handleOptionClick = (selectedOption) => {
@@ -40,9 +20,10 @@ function Home({ setOption }) {
       <div className='bg-gray-100 p-8 rounded-lg shadow-lg max-w-4xl w-full'>
         <div className='text-center mb-8'>
           <p className='text-2xl font-semibold'>
-            Hi, I'm <span className='text-blue-600 hover:text-red-600 hover:underline transition-colors duration-300'>Abhay Bhatia</span>. <br />
+            Hi, I'm <a href='https://www.linkedin.com/in/abhay-bhatia-202935229' className='text-blue-600 hover:text-red-600 hover:underline transition-colors duration-300'>Abhay Bhatia</a>. <br />
             A Fullstack Developer.
-          </p>
+          </p> 
+          <a href={CV}  target="_blank"  className="text-blue-600 hover:underline">Download CV</a>
           <p className='text-lg leading-relaxed mt-4'>
             I specialize in developing robust and scalable web applications using the latest technologies. With a keen eye for detail and a passion for coding, I strive to deliver exceptional user experiences. My expertise includes both front-end and back-end development, ensuring seamless integration and functionality across all platforms.
           </p>

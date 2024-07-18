@@ -6,6 +6,8 @@ import Skills from './Pages/Skills';
 import Projects from './Pages/Project';
 import Experience from './Pages/Experience';
 import Contact from './Pages/Contact';
+import Certificates from './Pages/Certificates';
+import Education from './Pages/Education';
 
 function App() {
   const [option, setOption] = useState('Home');
@@ -23,6 +25,10 @@ function App() {
         <Experience />
       ): option === 'Contact' ? (
         <Contact />
+      ): option === 'Certificates' ? (
+        <Certificates />
+      ) : option === 'Education' ? (
+        <Education />
       ) : (
         <Home setOption={setOption} />
       )}

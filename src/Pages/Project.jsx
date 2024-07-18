@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Pro from '../Components/pro';
-import ProjectsData from '../FakeDB/ProjectsData';
+import ProjectsData from '../FakeDB/Data/ProjectsData';
 
 const projectsData = ProjectsData;
 

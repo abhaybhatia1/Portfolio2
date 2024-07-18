@@ -38,7 +38,7 @@ function Contact() {
         <div className="text-center space-y-2">
           <p className="text-gray-700"><strong>Email:</strong> abhaybhatia0898@gmail.com</p>
           <p className="text-gray-700"><strong>Phone:</strong> 9873057300</p>
-          <p className="text-gray-700"><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">LinkedIn Profile</a></p>
+          <p className="text-gray-700"><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/abhay-bhatia-202935229" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">LinkedIn Profile</a></p>
         </div>
         <p className="text-center text-gray-600 font-semibold">Fill this form to contact me.</p>
         <form onSubmit={handleSubmit} className="space-y-1">
