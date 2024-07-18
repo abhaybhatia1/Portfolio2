@@ -23,7 +23,7 @@ function Home({ setOption }) {
             Hi, I'm <a href='https://www.linkedin.com/in/abhay-bhatia-202935229' className='text-blue-600 hover:text-red-600 hover:underline transition-colors duration-300'>Abhay Bhatia</a>. <br />
             A Fullstack Developer.
           </p> 
-          <a href={CV}  target="_blank"  className="text-blue-600 hover:underline">Download CV</a>
+          <a href={CV}  target="_blank"  className="text-blue-600 hover:underline">RESUME</a>
           <p className='text-lg leading-relaxed mt-4'>
             I specialize in developing robust and scalable web applications using the latest technologies. With a keen eye for detail and a passion for coding, I strive to deliver exceptional user experiences. My expertise includes both front-end and back-end development, ensuring seamless integration and functionality across all platforms.
           </p>
