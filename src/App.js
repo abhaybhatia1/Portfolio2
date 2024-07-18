@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import './App.css';
-import NavBar from './Components/NavBar';
-import Home from './Components/Home';
-import Skills from './Components/Skills';
-import Projects from './Components/Project';
-import Experience from './Components/Experience';
-import Contact from './Components/Contact';
+import NavBar from './Pages/NavBar';
+import Home from './Pages/Home';
+import Skills from './Pages/Skills';
+import Projects from './Pages/Project';
+import Experience from './Pages/Experience';
+import Contact from './Pages/Contact';
 
 function App() {
   const [option, setOption] = useState('Home');
