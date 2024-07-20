@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/Portfolio2/static/css/main.a06044a0.css",
-    "main.js": "/Portfolio2/static/js/main.b9c49e34.js",
+    "main.js": "/Portfolio2/static/js/main.214ee25e.js",
     "static/js/453.1407b060.chunk.js": "/Portfolio2/static/js/453.1407b060.chunk.js",
     "static/media/Social Networks (1) (1).pdf": "/Portfolio2/static/media/Social Networks (1) (1).f1e7375df06383739b32.pdf",
     "static/media/Programming in Java (2).jpg": "/Portfolio2/static/media/Programming in Java (2).d293a5feeb467d31b3f4.jpg",
     "static/media/Data Analytics with Python (1).jpg": "/Portfolio2/static/media/Data Analytics with Python (1).c0b89f8367203fa62a0e.jpg",
-    "static/media/sde.pdf": "/Portfolio2/static/media/sde.63d58e1a28ab84ebbf1e.pdf",
+    "static/media/image.png": "/Portfolio2/static/media/image.eb03e9071fa0d48c6899.png",
     "static/media/FEI0119_Abhay Bhatia_Internship letter (1).pdf": "/Portfolio2/static/media/FEI0119_Abhay Bhatia_Internship letter (1).4062b973873dd90cc047.pdf",
     "index.html": "/Portfolio2/index.html",
     "main.a06044a0.css.map": "/Portfolio2/static/css/main.a06044a0.css.map",
-    "main.b9c49e34.js.map": "/Portfolio2/static/js/main.b9c49e34.js.map",
+    "main.214ee25e.js.map": "/Portfolio2/static/js/main.214ee25e.js.map",
     "453.1407b060.chunk.js.map": "/Portfolio2/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a06044a0.css",
-    "static/js/main.b9c49e34.js"
+    "static/js/main.214ee25e.js"
   ]
 }
