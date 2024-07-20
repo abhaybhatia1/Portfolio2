@@ -1,6 +1,6 @@
 import React from 'react';
 import Icon from '../FakeDB/icons/icon';
-import CV from '../Assets/CV/sde.pdf'
+import CV from '../Assets/CV/Abhay_Bhatia_CV.pdf'
 const icons = Icon;
 
 function Home({ setOption }) {
