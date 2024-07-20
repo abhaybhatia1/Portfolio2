@@ -1,6 +1,6 @@
 import React from 'react';
+import Letter from '../Assets/Certificates/FEI0119_Abhay Bhatia_Internship letter (1).pdf';
 
-// Example experience data
 const experienceData = [
   {
     company: 'FarEye Technologies Pvt. Ltd.',
@@ -14,6 +14,7 @@ const experienceData = [
       'Enhanced user experience by offering clear error messages and guiding users through the submission process.',
       'Standardized data handling procedures, minimizing errors and streamlining workflow in handling order and vehicle information.'
     ],
+    link: Letter,
   },
 ];
 
@@ -32,6 +33,16 @@ function Experience() {
                   <li key={idx} className="mb-2">{point}</li>
                 ))}
               </ul>
+              <div className="mt-4">
+                <a
+                  href={experience.link}
+                  className="text-blue-500 underline"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Internship Certificate
+                </a>
+              </div>
             </div>
           </div>
         ))}
